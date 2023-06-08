@@ -48,6 +48,7 @@ app.get("/products", async (req, res) => {
       "seller",
       "imageUrl",
       "soldout",
+      "siteUrl",
     ],
   })
     .then((result) => {
